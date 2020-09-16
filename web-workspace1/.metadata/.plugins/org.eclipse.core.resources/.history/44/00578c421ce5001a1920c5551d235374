@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>menu</title>
+<script type="text/javascript">
+	function order(){
+		var flag=false;
+		var om=document.getElementsByName("menu");
+		for(var i=0;i<om.length;i++){
+			if(om[i].checked){
+				flag=true;
+				}
+				break;
+			}
+		}if(flag===false){
+			alert("선택된 메뉴가 없습니다. 메뉴를 선택해 주세요!");
+		}
+		return flag;
+	}
+	
+	function changeAllSel(){
+		var ac=document.getElementById("allSelect");
+		var om=document.getElementsByName("menu");
+		if(ac.checked){
+			for(var i=0;i<om.length;i++){
+				om[i].checked=true;
+			}
+		}else{
+			for(var i=0;i<om.length;i++){
+				om[i].checked=false;
+			}
+		}
+	}
+</script>
+</head>
+<body>
+<form method="post" action="orderMenu" id="orderMenuforId" onsubmit="return order()">
+<input type="checkbox" id="allSelect" onchange="changeAllSel()">전체선택<br>
+<input type="checkbox" name="menu" value="떡볶이">떡볶이
+<input type="number" min="1" max="20" name="count">인분<br>
+<input type="checkbox" name="menu" value="라면">라면
+<input type="number" min="1" max="20" name="count">인분<br>
+<input type="checkbox" name="menu" value="어묵">어묵
+<input type="number" min="1" max="20" name="count">인분<br>
+<input type="checkbox" name="menu" value="튀김">튀김
+<input type="number" min="1" max="20" name="count">인분<br>
+<input type="checkbox" name="menu" value="순대">순대
+<input type="number" min="1" max="20" name="count">인분<br>
+<input type="submit" value="주문">
+</form>
+</body>
+</html>

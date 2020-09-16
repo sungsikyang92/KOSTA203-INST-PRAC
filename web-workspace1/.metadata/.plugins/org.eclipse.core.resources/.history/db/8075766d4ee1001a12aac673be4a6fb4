@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript form text</title>
+</head>
+<body>
+<form name="exForm">
+<input type="text" name="orgTxt">
+<input type="button" value="이동" onclick="moveTxt()">
+<input type="text" name="destTxt">
+</form>
+</body>
+</html>

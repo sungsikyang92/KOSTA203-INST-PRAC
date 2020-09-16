@@ -1,0 +1,11 @@
+package a_model;
+
+import model.ProductDAO;
+
+public class MenuDAO {
+	private static MenuDAO instance=new MenuDAO();
+	private String driver="oracle.jdbc.OracleDriver";
+	private String url="jdbc:oracle:thin:@127.0.0.1:1521:xe";
+	private String username="scott";
+	private String userpass="tiger";
+}

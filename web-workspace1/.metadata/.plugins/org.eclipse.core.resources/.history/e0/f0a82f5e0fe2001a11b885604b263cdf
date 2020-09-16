@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>step11-array</title>
+<script type="text/javascript">
+	function testArray1(){
+		var arr=new Array(3);
+		arr[0]="김수민";
+		arr[1]="진용현";
+		arr[2]="양성식";
+		for(var i=0;i<arr.length;i++){
+			alert(arr[i]);
+		}
+	}
+</script>
+</head>
+<body>
+<input type="button" value="testarray1" onclick="testArray1()">
+<br><hr><br>
+<form name="foodForm">
+<input type="checkbox" name="food" value="맥주">맥주<br>
+<input type="checkbox" name="food" value="와인">와인<br>
+<input type="checkbox" name="food" value="소주">소주<br>
+<input type="button" value="확인" onclick="testArray2()">
+</form>
+</body>
+</html>

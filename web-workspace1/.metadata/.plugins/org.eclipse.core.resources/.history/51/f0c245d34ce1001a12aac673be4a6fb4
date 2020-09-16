@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript form text 입력양식 제어</title>
+</head>
+<body>
+<form name="testForm">
+아이디<input type="text" name="userId">
+<input type="button" value="테스트" onclick="accessForm()">
+</form>
+</body>
+</html>

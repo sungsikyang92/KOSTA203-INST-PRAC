@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title Here</title>
+<script type="text/javascript">
+	function deposit(){
+		alert("입금하기")
+		var f=document.testForm;
+		if(f.money.value.trim()==""){
+			alert("입금액을 넣으세요");
+		}else if(isNaN(f.money.value)){
+			alert("숫자로 입력하세요~");
+			f.money.value="";
+			f.money.focus();
+		}else{
+			alert(f.money.value+"원 입금처리");
+			f.money.value="";
+			f.money.focus();
+		}
+	}
+</script>
+</head>
+<body>
+<form name="testForm">
+입금액<input type="text" name="money">
+<input type="button" value="입금하기" onclick="deposit()">
+</form>
+</body>
+</html>

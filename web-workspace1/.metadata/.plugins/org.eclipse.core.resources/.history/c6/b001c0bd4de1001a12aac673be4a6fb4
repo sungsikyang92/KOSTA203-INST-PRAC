@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript form text 입력양식 제어</title>
+<script type="text/javascript">
+	function accessForm(){
+		console.log("함수 실행");
+		//userId라는 name 컴포넌트(text입력양식)에 접근해서
+		//사용자가 입력한 정보를 확인한다
+		//입력양식 객체를 변수에 저장한다
+		//document.form이름.component이름.value → 입력한 값
+		var data=document.testForm.userId.value;//value getting
+		alert("아이디: "+data)
+		alert(document.testForm.userId);//text 입력양식 객체
+		//↓사용자가 입력한 textbox에 정보를 지운다. 확인 누르면 입력했던 아이디가 지워져있다잉
+		document.testForm.userId.value="";//value setting
+		//↓포커스를 준다
+		document.testForm.userId.focus();
+	}
+</script>
+</head>
+<body>
+<form name="testForm">
+아이디<input type="text" name="userId">
+<input type="button" value="테스트" onclick="accessForm()">
+</form>
+</body>
+</html>

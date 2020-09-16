@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3104570178.index
+1727637556.index
+1275464778.index
+2614425256.index
+2307042343.index
+2587810983.index
+2833763072.index

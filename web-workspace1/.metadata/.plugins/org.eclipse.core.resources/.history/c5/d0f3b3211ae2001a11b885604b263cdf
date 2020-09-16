@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>submit 연습</title>
+</head>
+<body>
+<form action="depositForm" onsubmit="return depositAction()">
+금액<input type="text" name="money" id="money">
+<input type="submit" value="입금하기">
+</form>
+</body>
+</html>

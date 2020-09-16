@@ -1,0 +1,15 @@
+package step1;
+
+public class IfElseExample {
+	public static void main(String[] args) {
+		int score=100;
+		
+		if(score>=95) {
+			System.out.println("점수가 90보다 큽니다.");
+			System.out.println("등급은 A입니다.");
+		}else {
+			System.out.println("점수가 90보다 작습니다.");
+			System.out.println("등급은 B입니다.");
+		}
+	}
+}

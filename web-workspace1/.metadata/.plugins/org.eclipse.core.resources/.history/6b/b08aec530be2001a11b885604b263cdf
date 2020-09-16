@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript div span 제어</title>
+<style type="text/css">
+/* '#'은 id를 지정할 때 사용, '.'은 class를 지정할 때 사용
+	id는 하나만 지정, class는 여러개를 지정 */
+	#testDiv{
+		background-color: orange;
+	}#testSpan{
+		background-color: lime;
+	}
+</style>
+</head>
+<body>
+<div id="testDiv"><font color="red">이 부분은 div영역입니다.</font></div>
+<span id="testSpan">이 부분은 span영역입니다.</span>
+<span>이 부분은 아이디가 지정되지 않은 span영역입니다.</span>
+<br><br>
+<input type="button" value="testDiv" onclick="goDiv()">
+<input type="button" value="testSpan" onclick="goSpan()">
+</body>
+</html>

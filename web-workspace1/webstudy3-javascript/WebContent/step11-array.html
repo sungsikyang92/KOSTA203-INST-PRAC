@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>step11-array</title>
+<script type="text/javascript">
+	function testArray1(){
+		var arr=new Array(3);
+		arr[0]="김수민";
+		arr[1]="진용현";
+		arr[2]="양성식";
+		for(var i=0;i<arr.length;i++){
+			alert(arr[i]);
+		}
+	}
+	function testArray2(){
+		var fd=document.foodForm.food;
+		for(var i=0;i<fd.length;i++){
+			alert(fd[i].value);
+		}
+	}
+	function testArray3(){
+		var fda=document.getElementsByName("food");
+		//checkbox에는 checked라는 속성이 있고 체크 상태를 true false로 반환
+		alert(fda[0].checked);
+		fda[2].checked=true;
+	}
+</script>
+</head>
+<body>
+<input type="button" value="testarray1" onclick="testArray1()">
+<br><hr><br>
+<form name="foodForm">
+<input type="checkbox" name="food" value="맥주">맥주<br>
+<input type="checkbox" name="food" value="와인">와인<br>
+<input type="checkbox" name="food" value="소주">소주<br>
+<input type="button" value="확인" onclick="testArray2()">
+<input type="button" value="checked속성확인" onclick="testArray3()">
+</form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\120113433.index
+\web-info\src
+C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1926303851.index
+\webstudy24-DBCP\src

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+닉네임<input type="text" value="기본" id="nick">
+</form>
+</body>
+</html>

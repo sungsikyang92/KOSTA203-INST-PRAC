@@ -1,0 +1,113 @@
+**19일차 Network**
+java 기반의 TCP/IP 네트워크 프로그래밍 
+java.net.* 팩키지에 주요 클래스들이 있다 
+
+Protocol : 통신규약 ( 약속 )
+
+TCP/IP 란 인터넷 상의 통신 규약 
+
+TCP (Transmission Control Protocol) : 전송 제어 프로토콜 
+										  데이터 전달 보증 -> 신뢰성이 높다
+										  
+IP (Internet Protocol) : ip address(전화번호와 유사)로 호스트 주소를 지정 		
+						   자신의 ip는 cmd 창에서 ipconfig로 확인한다 
+						   192.168.0.109  김수민 ip : 192.168.0.121
+						   참고) DNS (Domain Name Service) 
+						   		: www.daum.net -> ip와 연결되는 Domain Name이다 
+Port : 가상의 연결단위, 서버의 서비스 번호(입구)
+		ex) http://127.0.0.1:8080
+		    protocol   ip		 port 
+
+Socket : 소켓이란 네트워크 연결의 양 끝단위( end-point) 로서 
+		   통신을 하기 위한 인터페이스를 제공한다 ( ex- 전화기와 유사 ) 
+		   socket.getInputStream() , socket.getOutputStream() 등을 제공 
+		   
+ServerSocket :  서버를 구현하기 위한 필수 객체 
+				   생성시 서비스 포트를 지정하고 
+				   주요 기능인 accept() 를 명시해야 한다 
+				   accept() 메서드는 클라이언트 접속을 대기하다가 
+				   클라이언트가 접속하면 실행되고 실행 후 반환되는 일반 Socket 객체는
+				   접속한 해당 클라이언트와 통신을 위해 제공된다 
+				   
+step1  서버는 클라이언트의 접속을 대기하다 접속하면 클라이언트에게 메세지를 전송하고
+		전송한 메세지를 클라이언트는 입력받아 자신의 콘솔에 출력하는 예제 
+		
+		Server													Client
+		
+		ServerSocket을 생성 (대표전화)						Socket(serverIp,port) 생성 
+		accept() : Socket (고객과 통신할 객체 ) 				
+		socket.getOutputStream() < PrintWriter 			socket.getInputStream() < InputStreamReader < BufferedReader
+		pw.println(메세지);									br.readLine(); // 서버의 메세지를 입력받는다 
+		close() 													close() 
+		
+
+step2 	서버는 접속을 대기하다가 클라이언트가 접속하여 메세지를 보내면 그 메세지를 
+		입력받아 자신의 콘솔창에 출력하고 다시 대기한다. 
+		클라이언트는 서버에 접속하여 메세지를 전송하고 종료한다 
+		
+		Server									Client 
+		ServerSocket(port)					Socket(serverIp,port)
+		accept() : Socket 	
+		socket.getInputStream()			 	socket.getOutputStream() 
+		
+		close									close 
+		
+ step3  메아리 서버 , 클라이언트 구성 
+ 		서버는 클라이언트가 보낸 메세지를 입력받아 자신의 콘솔에 출력하고
+ 		다시 그 메세지를 클라이언트로 보내는 역할을 지속적으로 한다 
+ 		클라이언트는 스캐너로 콘솔에서 서버에 보낼 메세지를 입력받아 
+ 		서버로 출력하고 서버가 보낸 메세지를 다시 입력받아 자신의 콘솔에 
+ 		출력하는 작업을 지속적으로 한다 
+ 		
+ 		실행 예)   클라이언트 프로그램 
+ 					서버에 보낼 메세지 :  안녕 메아리 서버            enter 
+ 					서버에서 온 메세지 : 안녕 메아리 서버 *server*
+ 					
+ 					서버프로그램
+ 					**메아리 서버 실행**
+ 					127.0.0.1 님 메세지 : 안녕 메아리 서버 
+ 					
+ 					
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 			
+		
+		
+		
+		
+		
+						   		   						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+
+
+
+
+
+
+
+
+
+
+								  

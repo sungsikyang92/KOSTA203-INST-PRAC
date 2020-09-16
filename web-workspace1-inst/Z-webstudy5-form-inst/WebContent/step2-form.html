@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form 연동 테스트</title>
+<script>
+	function checkPassword(){
+		var flag=true;
+		var p1=document.getElementById("pass1");
+		var p2=document.getElementById("pass2");
+		if(p1.value!==p2.value){
+			alert("패스워드와 확인란이 일치하지 않습니다!");
+			flag=false;
+		}
+		return flag;		
+	}
+</script>
+</head>
+<body bgcolor="yellow">
+<!-- 
+		tool 로 step2.LoginServlet 을 만들고 ( Deployment Descriptor : web.xml 설정확인 )
+		form method에 적합한 서블릿 메서드를 오버라이딩하여 사용자가 전송한
+		아이디와 패스워드를 출력한다 
+		아이디 : javaking 
+		패스워드 : 1234  
+		이메일 : tico99@daum.net 
+		
+		전송전에 패스워드와 패스워드확인란을 비교해서 내용이 다르면 
+		alert() 으로 패스워드와 확인란이 일치하지 않습니다 
+		전송되지 않도록 한다.
+ -->
+<form action="LoginServlet" method="post" onsubmit="return checkPassword()">
+아이디 <input type="text" name="memberId" required="required"  maxlength="10">
+(아이디는 10자 이하)<br>
+패스워드 <input type="password" name="memberPass" id="pass1" required="required"><br>
+패스워드 확인 <input type="password" name="confirmPass" id="pass2" required="required"><br>
+이메일 <input type="email" name="memberEmail" required="required"><br>
+<input type="submit" value="로그인">
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

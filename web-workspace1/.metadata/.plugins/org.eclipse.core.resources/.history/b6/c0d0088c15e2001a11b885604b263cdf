@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>step12-checkbox</title>
+</head>
+<body>
+<form id="menuForm">
+<input type="checkbox" name="menu" value="전어">전어<br>
+<input type="checkbox" name="menu" value="광어">광어<br>
+<input type="checkbox" name="menu" value="우럭">우럭<br>
+</form>
+</body>
+</html>

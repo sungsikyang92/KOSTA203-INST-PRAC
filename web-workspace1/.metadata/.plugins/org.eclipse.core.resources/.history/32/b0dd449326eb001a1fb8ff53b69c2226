@@ -1,0 +1,13 @@
+CREATE TABLE menuforStudy
+	(id varchar2(100) primary key,
+	menu varchar2(100) not null,
+	price number not null
+	)
+	
+SELECT*FROM menuforStudy
+CREATE sequence menuforStudy_seq;
+
+INSERT INTO menuforStudy(id,menu,price)VALUES(menuforStudy_seq.nextval,'제육볶음',5000);
+INSERT INTO menuforStudy(id,menu,price)VALUES(menuforStudy_seq.nextval,'떡볶이',2500);
+INSERT INTO menuforStudy(id,menu,price)VALUES(menuforStudy_seq.nextval,'순대',2000);
+INSERT INTO menuforStudy(id,menu,price)VALUES(menuforStudy_seq.nextval,'어묵',2300);

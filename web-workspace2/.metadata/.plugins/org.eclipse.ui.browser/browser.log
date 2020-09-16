@@ -1,0 +1,23 @@
+
+9월 14, 2020 21:00:31.117 NEW SESSION
+9월 14, 2020 21:00:31.117 [12420:13876:0914/210031.114:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9월 14, 2020 21:37:22.997 [12420:11736:0914/213722.996:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9월 15, 2020 16:15:38.464 [12420:11736:0915/161538.464:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 15, 2020 16:15:38.621 [12420:11736:0915/161538.620:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 15, 2020 16:33:08.55 [12420:11736:0915/163308.054:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -103
+9월 15, 2020 16:33:10.135 [12420:11736:0915/163310.135:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 15, 2020 16:34:22.134 [12420:11736:0915/163422.134:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 15, 2020 16:34:50.359 [12420:11736:0915/163450.359:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 15, 2020 16:51:21.690 [12420:11736:0915/165121.689:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9월 15, 2020 19:51:28.778 [12420:11736:0915/195128.777:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9월 16, 2020 09:11:40.09 [12420:11736:0916/091138.716:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+9월 16, 2020 09:11:40.180 [12420:11736:0916/091140.179:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9월 16, 2020 09:11:40.188 [12420:11736:0916/091140.179:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9월 16, 2020 09:11:40.466 [12420:14932:0916/091140.466:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9월 16, 2020 09:12:04.575 [12420:11736:0916/091204.575:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9월 16, 2020 09:12:06.756 [12420:11736:0916/091206.755:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9월 16, 2020 09:12:24.179 [12420:11736:0916/091224.179:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+9월 16, 2020 09:12:49.332 [12420:11736:0916/091249.332:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9월 16, 2020 09:12:51.983 [12420:11736:0916/091251.983:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9월 16, 2020 09:12:55.478 [12420:14736:0916/091255.478:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9월 16, 2020 09:13:09.424 [12420:11736:0916/091309.424:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106

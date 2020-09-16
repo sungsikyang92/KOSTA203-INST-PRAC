@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\db-sql"/>
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\webstudy14-model1-inst"/>
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\webstudy13-jsp-form-inst"/>
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\webstudy7-ServletConfig-ServletContext-inst"/>
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\webstudy6-LifeCycle-inst"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\Z-webstudy23-product-date-inst"/>
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\Z-webstudy22-member-inst"/>
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\Z-webstudy21-cookie-session-inst"/>
+			<item value="C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace1\Z-webstudy20-model2-FrontController-product-inst"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="659"/>
+		<item key="DIALOG_Y_ORIGIN" value="346"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

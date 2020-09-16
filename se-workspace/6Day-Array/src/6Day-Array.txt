@@ -1,0 +1,54 @@
+			**6일차(2020.07.15)목차**
+1. Review
+2. Relationship: composition(consist of, 구성)
+3. Array(배열)
+	-기본형 데이터를 저장하는 배열
+	-참조형 데이터를 저장하는 배열
+******************************************************
+2. Relationship: composition(consist of, 구성)
+
+	UML(통합모델링언어) 중 Class Diagram의 relation(관계)
+	association(연관) → aggregation(집합) → composition(구성)
+	ex)자동차는 엔진을 가지고 있다.
+		 위의 예시 처럼 자동차가 생성되기 위해서 엔진은 필수적이므로
+		 가장 긴밀한 관계(생명주기, LifeCycle을 함께한다)로 표현한다.
+******************************************************
+3. Array(배열): 다수의 데이터를 효과적으로 관리하기 위해 사용
+						 하나의 배열 객체에 다수의 데이터를 저장한 후
+						 검색, 수정, 삭제, 삽입 할 수 있다.
+						 
+	1)기본형 데이터를 저장하는 배열
+		//배열 객체 선언
+		//int는 배열에 저장될 데이터 타입, []배열표시, age는 배열 변수(배열은 객체이기 때문에 Heap영역에 저장)
+		int[] age;
+		//배열 객체 생성
+		age = new int[3]; //3은 배열 요소의 공간 길이수(방을 3개 만든다)
+		//배열에 요소 할당
+		age[0]=22; //배열 요소 번지수는 0부터 시작
+		age[1]=11;
+		age[2]=44;
+		
+		배열 객체 속성 length → 배열 길이를 반환 ex) age.length
+		
+	2)참조형 데이터를 저장하는 배열
+		//배열 선선
+		Person [] p; //Person 객체들을 저장하는 배열
+		//배열 생성
+		p = new Person[3]; //배열 방 길이 3
+		//배열 할당
+		p[0] = new Person("아이유", 28);
+		...
+		p 배열 첫번째 요소의 이름을 출력
+		sysout(p[0].getName());
+********************************************************
+**7일차 목차**
+	
+	1. Overloading(메서드 오버로딩, 생성자 오버로딩)
+	2. Inheritance(상속)
+			extends
+			UML(Class Diagram → generalization)
+			super
+			메서드 오버라이딩(Method Overriding)
+			toString()
+	3. Polymorphism(다형성)
+			Object Casting

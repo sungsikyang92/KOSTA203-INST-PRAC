@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title Here</title>
+</head>
+<body>
+<form name="testForm">
+입금액<input type="text" name="money">
+<input type="button" value="입금하기" onclick="deposit()">
+</form>
+</body>
+</html>

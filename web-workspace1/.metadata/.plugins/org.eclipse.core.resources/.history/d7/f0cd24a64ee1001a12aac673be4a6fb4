@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript form text</title>
+<script type="text/javascript">
+	var org=document.exForm.orgTxt;
+	var dest=document.exForm.destTxt;
+	
+	dest.value=org.value;
+	
+	org.focus();
+	org.value="";
+</script>
+</head>
+<body>
+<form name="exForm">
+<input type="text" name="orgTxt">
+<input type="button" value="이동" onclick="moveTxt()">
+<input type="text" name="destTxt">
+</form>
+</body>
+</html>

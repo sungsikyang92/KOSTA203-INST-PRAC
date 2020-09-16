@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;step12-checkbox.html&apos; to &apos;step12-checkbox.html&apos;&#x0D;&#x0A;- Original project: &apos;webstudy3-javascript&apos;&#x0D;&#x0A;- Destination element: &apos;step12-checkbox.html&apos;&#x0D;&#x0A;- Original element: &apos;step12-checkbox.html&apos;" description="Copy file" element1="WebContent/step12-checkbox.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1597839426269" target="/webstudy3-javascript/WebContent/step12-checkbox.html" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>음식주문</title>
+</head>
+<body>
+<form action="front">
+<input type="hidden" name="command" value="orderMenu">
+<table>
+	<thead>
+		<tr>
+			<th>번호</th><th>메뉴</th><th>가격</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td><td></td><td></td><td></td>
+		</tr>
+	</tbody>
+</table>
+주문번호입력<input type="number" name="menuId">
+<input type="submit" value="주문하기">
+</form>
+</body>
+</html>

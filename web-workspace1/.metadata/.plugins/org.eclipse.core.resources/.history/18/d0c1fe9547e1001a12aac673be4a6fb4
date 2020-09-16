@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript 기초</title>
+<script type="text/javascript">
+	//	javascript 주석
+	/*
+		javascript 주석
+	*/
+	//alert("hello js"); //hello js 팝업뜬다아아아
+	console.log("콘솔 테스트");
+	//자바스크립트 변수 선언
+	var nick="수지";
+	console.log(nick);
+</script>
+</head>
+<body>
+
+</body>
+</html>

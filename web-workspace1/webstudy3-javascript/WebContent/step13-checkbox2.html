@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>step13-checkbox2</title>
+<script type="text/javascript">
+	function orderMenu(){
+		var om=document.getElementsByName("menu");
+		var order="";
+		for(var i=0;i<om.length;i++){
+			if(om[i].checked==true){
+				order+=om[i].value+" ";
+			}
+		}
+		if(order===""){
+			alert("메뉴를 선택해 주세요");
+		}else{
+			alert("주문하신 메뉴: "+order);
+		}
+		document.getElementById("menuForm").reset();
+	}
+</script>
+</head>
+<body>
+<form id="menuForm">
+<input type="checkbox" name="menu" value="전어">전어<br>
+<input type="checkbox" name="menu" value="광어">광어<br>
+<input type="checkbox" name="menu" value="우럭">우럭<br>
+<input type="button" value="주문" onclick="orderMenu()">
+</form>
+</body>
+</html>

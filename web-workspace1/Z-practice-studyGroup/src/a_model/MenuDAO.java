@@ -1,0 +1,60 @@
+package a_model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+public class MenuDAO {
+	private static MenuDAO instance=new MenuDAO();
+	private String driver="oracle.jdbc.OracleDriver";
+	private String url="jdbc:oracle:thin:@127.0.0.1:1521:xe";
+	private String username="scott";
+	private String userpass="tiger";
+	private MenuDAO() {
+		try {
+			Class.forName(driver);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static MenuDAO getInstance() {
+		return instance;	
+	}
+	public void closeAll(ResultSet rs,PreparedStatement pstmt,Connection con) 
+			throws SQLException {
+		if(rs!=null)
+			rs.close();
+		if(pstmt!=null)
+			pstmt.close();
+		if(con!=null)
+			con.close();
+	}
+	public ArrayList<MenuVO> getAllMenuList() throws SQLException{
+		ArrayList<MenuVO> list=new ArrayList<MenuVO>();
+		Connection con=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+		try {
+			con=DriverManager.getConnection(url, username, userpass);
+			String sql="select id,menu,price from A_menuforStudy";
+			pstmt=con.prepareStatement(sql);
+			rs=pstmt.executeQuery();
+			while(rs.next()) {
+				MenuVO vo=new MenuVO();
+				vo.setId(rs.getString(1));
+				vo.setMenu(rs.getString(2));
+				vo.setPrice(rs.getInt(3));
+				list.add(vo);
+			}
+			
+		}finally {
+			closeAll(rs, pstmt, con);
+		}
+		return list;
+	}
+	
+}

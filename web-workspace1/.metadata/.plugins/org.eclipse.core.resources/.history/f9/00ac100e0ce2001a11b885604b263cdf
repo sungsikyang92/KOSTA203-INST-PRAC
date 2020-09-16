@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>연산자 테스트</title>
+<script type="text/javascript">
+	function test(){
+		//문자열 비교
+		var name1="양성식";
+		var name2="양성 식 ";
+		alert(name1==name2.trim());
+	}
+</script>
+</head>
+<body>
+<input type="button" value="연산테스트" onclick="test()">
+</body>
+</html>
