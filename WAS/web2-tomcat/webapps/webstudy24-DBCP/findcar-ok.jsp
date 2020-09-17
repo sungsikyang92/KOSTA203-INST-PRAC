@@ -1,3 +1,4 @@
+<%@page import="org.kosta.model.CarDTO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -7,8 +8,11 @@
 <title>Car Search Result</title>
 </head>
 <body>
-차번호:<br>
-모델명:<br>
-가격:<br>
+<%
+	CarDTO dto=(CarDTO)request.getAttribute("carDTO");
+%>
+차번호:<%=dto.getCarNo() %><br>
+모델명:<%=dto.getModel() %><br>
+가격:<%=dto.getPrice() %><br>
 </body>
 </html>

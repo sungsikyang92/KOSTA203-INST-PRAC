@@ -21,3 +21,7 @@
 9월 16, 2020 09:12:51.983 [12420:11736:0916/091251.983:ERROR:registration_request.cc(246)] Registration URL fetching failed.
 9월 16, 2020 09:12:55.478 [12420:14736:0916/091255.478:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
 9월 16, 2020 09:13:09.424 [12420:11736:0916/091309.424:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+9월 17, 2020 20:39:39.471 NEW SESSION
+9월 17, 2020 20:39:39.471 [13696:11796:0917/203939.469:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9월 17, 2020 20:54:33.03 [8980:16400:0917/205433.002:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.

@@ -21,7 +21,6 @@ public class CarDAO {
 		try {
 			Class.forName(driver);
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -44,11 +43,17 @@ public class CarDAO {
 		ResultSet rs=null;
 		try {
 			con=DriverManager.getConnection(url, user, pass);
-			String sql="SELECT model,price FROM mvc_car WHERE car_no=?"
+			String sql="SELECT model,price FROM mvc_car WHERE car_no=?";
+			pstmt=con.prepareStatement(sql);
+			pstmt.setString(1, carNo);
+			rs=pstmt.executeQuery();
+			if(rs.next()) {
+				carDTO=new CarDTO(carNo,rs.getString(1),rs.getInt(2));
+			}
 		}finally {
 			closeAll(rs,pstmt,con);
 		}
-		return null;
+		return carDTO;
 		
 	}
 		
