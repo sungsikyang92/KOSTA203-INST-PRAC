@@ -1,14 +1,15 @@
+<h3>JSP</h3>
 JSP= Java Server Page/ html코드를 사용하는데 java코드도 같이 사용할 수 있다<br>
 <jsp:forward page=""> page=""로 이동시켜준다.<br>
 <jsp:param value="" name=""> name에 command를 넣고 value에 controller에 보내는 명령어를 집어 넣는다. Parameter- 매개변수...지역변수..<hr>
 
-Singleton!!<br>
+<h3>Singleton!!</h3><br>
 private static "DataType" instance=new "DataType"();<br>
 private "DataType"(){}<br>
 public static "DataType" getInstance(){<br>
 	return instance;<br>
 }<hr>
-HandlerMapping에서 handleRequest 작성법<br>
+<h3>HandlerMapping에서 handleRequest 작성법</h3><br>
 protected void handleRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {<br>
 		try {<br>
 			String command=request.getParameter("command");<br>
