@@ -8,5 +8,18 @@ private "DataType"(){}<br>
 public static "DataType" getInstance(){<br>
 	return instance;<br>
 }<hr>
-
-
+HandlerMapping에서 handleRequest 작성법<br>
+protected void handleRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {<br>
+		try {<br>
+			String command=request.getParameter("command");<br>
+			Controller controller=HandlerMapping.getInstance().create(command);<br>
+			String url=controller.execute(request, response).trim();<br>
+			if(url.startsWith("redirect:"))<br>
+				response.sendRedirect(url.substring(9));<br>
+			else<br>
+				request.getRequestDispatcher(url).forward(request, response);<br>
+		}catch(Exception e) {<br>
+			e.printStackTrace();//예외 메세지와 발생 경로를 콘솔에 모두 출력 할 수 있게 해준다.<br>
+			response.sendRedirect("error.jsp");<br>
+		}<br>
+	}<hr>
