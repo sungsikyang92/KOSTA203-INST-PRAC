@@ -1,9 +1,15 @@
 INDEX VERSION 1.131
 C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2244220735.index
 \webstudy25-css-bootstrap\src
+C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4107027063.index
+\webstudy35-jstl-item\src
 C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\767736188.index
 \webstudy25-css-bootstrap\src
+C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2101621079.index
+\webstudy35-jstl-item\src
 C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\120113433.index
 \web-info\src
 C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1926303851.index
 \webstudy24-DBCP\src
+C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4008438369.index
+\webstudy35-jstl-item\src

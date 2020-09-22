@@ -1,4 +1,5 @@
 #Tomcat publish data
-#Thu Sep 17 21:42:37 KST 2020
+#Mon Sep 21 21:58:41 KST 2020
+org.eclipse.jst.jee.server\:webstudy35-jstl-item=C\:\\Users\\sungs\\OneDrive\\2020_Sungsik\\KOSTA\\WAS\\web2-tomcat\\webapps\\webstudy35-jstl-item
 org.eclipse.jst.jee.server\:webstudy25-css-bootstrap=C\:\\Users\\sungs\\OneDrive\\2020_Sungsik\\KOSTA\\WAS\\web2-tomcat\\webapps\\webstudy25-css-bootstrap
 org.eclipse.jst.jee.server\:webstudy24-DBCP=C\:\\Users\\sungs\\OneDrive\\2020_Sungsik\\KOSTA\\WAS\\web2-tomcat\\webapps\\webstudy24-DBCP
