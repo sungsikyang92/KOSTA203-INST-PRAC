@@ -14,7 +14,7 @@ public static "DataType" getInstance(){
 }
 </pre><hr>
 <pre>
-<h3>HandlerMapping에서 handleRequest 작성법</h3>
+<h3>DispatcherServlet에서 handleRequest 작성법</h3>
 protected void handleRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try {
 			String command=request.getParameter("command");
