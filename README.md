@@ -30,12 +30,12 @@ protected void handleRequest(HttpServletRequest request, HttpServletResponse res
 		}
 	}
 	</pre><hr>
-	<pre>
+<pre>
 	<h3>Database Connection Pool 객체를 생성해 공유하는 클래스</h3>
- * 	DBCP → 시스템 성능 향상을 위해 DB 커넥션을 생성, 소멸시키지 않고 미리 생성한 커넥션을 빌려주고 반납
- * 	javax.sql.DataSource Interface 타입으로 DBCP를 관리한다. 
- * 	이유는 WAS가 변경되면 DBCP도 변경될 수 있으므로 추상화된 인터페이스 타입으로 관리하는 것이 유지보수에 유리하다
- *
+  	DBCP → 시스템 성능 향상을 위해 DB 커넥션을 생성, 소멸시키지 않고 미리 생성한 커넥션을 빌려주고 반납
+  	javax.sql.DataSource Interface 타입으로 DBCP를 관리한다. 
+  	이유는 WAS가 변경되면 DBCP도 변경될 수 있으므로 추상화된 인터페이스 타입으로 관리하는 것이 유지보수에 유리하다
+ 
 public class DataSourceManager {
 	private static DataSourceManager instance=new DataSourceManager();
 	private DataSource dataSource;
