@@ -67,8 +67,8 @@ public String execute(HttpServletRequest request, HttpServletResponse response) 
 </pre><hr>
 <pre>
 <h3>StringBuilder 사용법</h3>
-      StringBuilder sql=new StringBuilder();
-      sql.append("sql... ");
-      sql.append("sql... ");
-      sql.append("sql...");
+StringBuilder sql=new StringBuilder();
+sql.append("sql... ");
+sql.append("sql... ");
+sql.append("sql...");
 </pre><hr>
