@@ -65,3 +65,10 @@ public class ItemDAO {<br>
 <h3>Controller에서 Controller Interface 만들기</h3>
 public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception;
 </pre><hr>
+<pre>
+<h3>StringBuilder 사용법</h3>
+      StringBuilder sql=new StringBuilder();
+      sql.append("sql... ");
+      sql.append("sql... ");
+      sql.append("sql...");
+</pre><hr>
