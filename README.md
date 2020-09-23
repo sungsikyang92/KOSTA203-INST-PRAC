@@ -61,3 +61,7 @@ public class ItemDAO {<br>
 	public static ItemDAO getInstance() {<br>
 		return instance;<br>
 	}<hr>
+<pre>
+<h3>Controller에서 Controller Interface 만들기</h3>
+public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception;
+</pre><hr>
