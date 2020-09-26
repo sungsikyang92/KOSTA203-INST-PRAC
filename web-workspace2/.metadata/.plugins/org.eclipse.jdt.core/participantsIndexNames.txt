@@ -13,3 +13,5 @@ C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org
 \webstudy24-DBCP\src
 C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4008438369.index
 \webstudy35-jstl-item\src
+C:\Users\sungs\OneDrive\2020_Sungsik\KOSTA\web-workspace2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1669998714.index
+\webstudy38-join\src

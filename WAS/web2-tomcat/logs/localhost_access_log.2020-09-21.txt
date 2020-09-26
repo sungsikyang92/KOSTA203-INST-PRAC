@@ -63,3 +63,6 @@
 0:0:0:0:0:0:0:1 - - [21/Sep/2020:21:58:15 +0900] "GET /webstudy35-jstl-item/index.jsp HTTP/1.1" 200 1760
 0:0:0:0:0:0:0:1 - - [21/Sep/2020:21:58:15 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
 0:0:0:0:0:0:0:1 - - [21/Sep/2020:21:58:16 +0900] "GET /webstudy35-jstl-item/front?command=itemDetail&name=%EC%95%84%EC%9D%B4%ED%8F%B07 HTTP/1.1" 200 1364
+127.0.0.1 - - [21/Sep/2020:21:58:49 +0900] "GET / HTTP/1.1" 200 11414
+0:0:0:0:0:0:0:1 - - [21/Sep/2020:21:58:52 +0900] "GET /webstudy35-jstl-item/index.jsp HTTP/1.1" 200 1760
+0:0:0:0:0:0:0:1 - - [21/Sep/2020:21:58:55 +0900] "GET /webstudy35-jstl-item/front?command=itemDetail&name=%EC%95%84%EC%9D%B4%ED%8F%B07 HTTP/1.1" 200 1419

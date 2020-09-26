@@ -36,3 +36,22 @@
 9월 22, 2020 09:06:57.980 [3860:4396:0922/090657.980:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
 9월 22, 2020 09:06:59.280 [3860:3272:0922/090659.279:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
 9월 22, 2020 09:06:59.640 [3860:3272:0922/090659.639:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 22, 2020 09:31:57.273 [11036:12420:0922/093157.272:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+9월 22, 2020 09:32:41.348 [11036:12468:0922/093241.348:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9월 22, 2020 14:47:35.118 [11036:14708:0922/144735.118:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9월 22, 2020 14:47:36.842 [11036:12468:0922/144736.842:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 22, 2020 14:47:37.154 [11036:12468:0922/144737.154:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 22, 2020 16:12:06.428 [11036:12468:0922/161206.428:ERROR:socket_stream.cc(219)] Closing stream with result -2
+9월 22, 2020 18:13:25.774 [11036:12468:0922/181325.773:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+9월 22, 2020 21:55:55.352 [11036:12468:0922/215555.346:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 22, 2020 21:56:22.369 [11036:12468:0922/215622.368:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 22, 2020 21:57:05.679 [11036:12468:0922/215705.677:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 22, 2020 21:58:58.805 [11036:12468:0922/215858.804:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 22, 2020 22:02:02.248 [11036:12468:0922/220202.246:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 23, 2020 01:07:44.970 [11036:12468:0923/010744.485:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 23, 2020 01:07:45.101 [11036:15548:0923/010744.719:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9월 23, 2020 20:45:19.924 [11036:12468:0923/204519.896:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9월 23, 2020 20:45:20.157 [11036:12468:0923/204519.896:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+9월 23, 2020 20:45:20.289 [11036:5188:0923/204519.959:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+9월 23, 2020 20:45:20.414 [11036:12468:0923/204520.027:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+9월 23, 2020 21:51:14.372 [9728:2860:0923/215114.372:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.

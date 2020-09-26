@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [22/Sep/2020:09:31:58 +0900] "GET /webstudy35-jstl-item/index.jsp HTTP/1.1" 200 1760
+0:0:0:0:0:0:0:1 - - [22/Sep/2020:09:31:58 +0900] "GET /webstudy35-jstl-item/css/myhome.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Sep/2020:09:32:04 +0900] "GET /webstudy35-jstl-item/front?command=itemDetail&name=G8 HTTP/1.1" 200 1392
+0:0:0:0:0:0:0:1 - - [22/Sep/2020:09:32:13 +0900] "GET /webstudy35-jstl-item/front?command=home HTTP/1.1" 200 1760
+0:0:0:0:0:0:0:1 - - [22/Sep/2020:09:32:15 +0900] "GET /webstudy35-jstl-item/front?command=itemDetail&name=%EC%95%84%EC%9D%B4%ED%8F%B07 HTTP/1.1" 200 1419
+0:0:0:0:0:0:0:1 - - [22/Sep/2020:09:32:19 +0900] "GET /webstudy35-jstl-item/front?command=home HTTP/1.1" 200 1760
