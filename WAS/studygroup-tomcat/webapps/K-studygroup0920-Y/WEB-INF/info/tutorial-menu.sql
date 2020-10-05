@@ -26,3 +26,20 @@ INSERT INTO web_table(tablenum, occupancy) VALUES(17, 'false');
 INSERT INTO web_table(tablenum, occupancy) VALUES(18, 'false');
 INSERT INTO web_table(tablenum, occupancy) VALUES(19, 'false');
 INSERT INTO web_table(tablenum, occupancy) VALUES(20, 'false');
+
+CREATE TABLE web_admin(
+	empNo NUMBER(10) PRIMARY KEY,
+	id VARCHAR2(100) NOT NULL,
+	password VARCHAR2(100) NOT NULL,
+	name VARCHAR2(100) NOT NULL
+)
+
+INSERT INTO web_admin VALUES(1,'a','z','¶ì¿ä¿Ë');
+INSERT INTO web_admin VALUES(2,'s','x','¶ì¿ä¿Ë');
+INSERT INTO web_admin VALUES(3,'d','c','¶ì¿ä¿Ë');
+
+SELECT*FROM web_admin;
+
+COMMIT
+
+DROP TABLE store_admin;

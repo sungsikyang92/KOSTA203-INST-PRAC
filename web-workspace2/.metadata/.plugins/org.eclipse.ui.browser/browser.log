@@ -55,3 +55,9 @@
 9월 23, 2020 20:45:20.289 [11036:5188:0923/204519.959:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
 9월 23, 2020 20:45:20.414 [11036:12468:0923/204520.027:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
 9월 23, 2020 21:51:14.372 [9728:2860:0923/215114.372:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+
+10월 04, 2020 24:57:43.485 NEW SESSION
+10월 04, 2020 24:57:43.485 [20628:24256:1004/005743.482:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10월 04, 2020 02:45:27.638 [16448:18692:1004/024527.637:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10월 04, 2020 02:46:17.387 [14812:25336:1004/024617.386:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+10월 04, 2020 02:48:05.945 [4400:15752:1004/024805.945:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.

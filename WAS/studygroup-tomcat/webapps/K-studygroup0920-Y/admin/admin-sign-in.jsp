@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" session="false"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>    
-
+<form method="post" action="${pageContext.request.contextPath}/front">
+<input type="hidden" name="command" value="login">
 <table>
 	<tr>
 		<td>ID</td><td><input type="text" name="id" required="required"></td>
@@ -13,3 +14,4 @@
 		<td></td><td><input type="submit" value="sign-in"></td>
 	</tr>
 </table>
+</form>
